@@ -1,0 +1,6 @@
+print("Podaj n:")
+number = input()
+add = int(number)
+result = list(range(add+1))
+end = sum(result)
+print(end)

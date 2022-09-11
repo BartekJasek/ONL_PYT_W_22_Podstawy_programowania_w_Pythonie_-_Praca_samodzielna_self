@@ -1,0 +1,20 @@
+print("Równanie w postaci a*x**2 + b*x + c == 0")
+print("Podaj a:")
+first = input()
+a = float(first)
+print("Podaj b:")
+second = input()
+b = float(second)
+print("Podaj c:")
+third = input()
+c = float(third)
+delta = (b**2) - (4*a*c)
+x = float(delta)
+x_1 = (-b + x**0.5) / (2 * a)
+x_2 = (b - x**0.5) / (2 * a)
+if x > 0:
+    print(f"x_1={x_1}, x_2={x_2}")
+elif x < 0:
+    print("brak rozwiązań")
+else :
+    print(f"x_1 = x_2 = {x-1}")

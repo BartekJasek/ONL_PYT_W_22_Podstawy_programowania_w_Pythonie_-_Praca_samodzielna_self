@@ -1,0 +1,5 @@
+print("Podaj imię:")
+imie = input()
+print("Podaj naziwsko:")
+nazwisko = input()
+print(f"{imie} {nazwisko} jest programistą Pythona! ")

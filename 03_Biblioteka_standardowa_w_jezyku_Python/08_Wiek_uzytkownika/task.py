@@ -1,0 +1,6 @@
+print("Podaj swoje imię:")
+name = input()
+print("Podaj rok swojego urodzenia:")
+year = input()
+age = 2022 - int(year)
+print(f"Użytkownik {name} jest w wieku {age} ")
